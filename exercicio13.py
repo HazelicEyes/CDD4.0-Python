@@ -1,2 +1,5 @@
-for x in range (1000,0,-1):
-    print(x)
+soma = 0
+for x in range (10):
+    n = int(input("Insira um numero: "))
+    soma = soma + n
+print(f'Valor da soma: {soma}')
