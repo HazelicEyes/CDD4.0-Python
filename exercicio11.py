@@ -15,7 +15,7 @@ if minutosaida >= 60:
     minutosaida = minutosaida - 60
 if horasaida >= 24:
     horasaida = horasaida - 24
-elif horasaida > 12 and horasaida < 24:
+if horasaida > 12:
     horasaida = horasaida - 12
 if horasaida > 12:
     horasaida = horasaida - 12
