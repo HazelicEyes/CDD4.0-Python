@@ -1,7 +1,8 @@
-ano = 2024
-idade = int(input("Digite a idade: "))
-aniversario = input("Voce ja fez aniversario esse ano? (s/n): ")
-if aniversario == 'n' or aniversario == 'n':
-    ano = ano -1
-nascimento = ano - idade
-print(f'A pessoa nasceu em {nascimento}')
+'''5. Crie um algoritmo que leia um
+número e diga se ele é par ou ímpar'''
+
+numero = int(input("Digite um numero: "))
+if numero % 2 == 0:
+    print("O numero é par")
+else:
+    print("O numero é impar")
