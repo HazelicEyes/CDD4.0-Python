@@ -10,9 +10,9 @@ macas = int(input("Digite o numero de maçãs que vc deseja comprar: "))
 preco1 = 1.30
 preco2 = 1.00
 
-if macas >= 12:
-    total = macas * preco2
+if macas < 12:
+    total = macas * preco1
     print(f'O preço de {macas} maçãs sai por {total} reais')
 else:
-    total = macas * preco1
+    total = macas * preco2
     print(f'O preço de {macas} maçãs sai por {total} reais')
