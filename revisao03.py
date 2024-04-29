@@ -6,7 +6,7 @@ nasceu'''
 ano = 2024
 idade = int(input("Digite a idade: "))
 aniversario = input("Voce ja fez aniversario esse ano? (s/n): ")
-if aniversario == 'n' or aniversario == 'n':
+if aniversario == 'n' or aniversario == 'N':
     ano = ano -1
 nascimento = ano - idade
 print(f'A pessoa nasceu em {nascimento}')

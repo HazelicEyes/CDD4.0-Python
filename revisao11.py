@@ -8,9 +8,4 @@ anos = int(input("Quantos anos voce viveu? "))
 meses = int(input("Quantos meses voce viveu? "))
 dias = int(input("Quantos dias voce viveu? "))
 idade = anos*365 + meses*30 + dias
-#ano=365
-#mes=30
-#anosParaDias = anos * ano
-#mesesParaDias = meses * mes
-#idade = anosParaDias + mesesParaDias + dias
 print(f'Voce viveu por {idade} dias.')
