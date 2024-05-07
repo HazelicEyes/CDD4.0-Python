@@ -1,7 +1,11 @@
-n1 = int(input("Digite um valor: "))
-n2 = int(input("Digite outro valor: "))
+'''14. Escreva um algoritmo para ler uma
+temperatura em graus Fahrenheit, calcular
+e escrever o valor correspondente em graus
+Celsius (baseado na fórmula abaixo):
+C = ((F - 32)/9)*5
+Observação: Para testar se a sua resposta
+está correta saiba que 100 ⍛C = 212 F'''
 
-if n1 > n2:
-    print(f'{n2} e {n1}')
-else:
-    print(f'{n1} e {n2}')
+temperaturaF = int(input("Digite a temperatura em Fahrenheit: "))
+celsius = ((temperaturaF - 32)/9)*5
+print(f'A temperatura em Celsius é {celsius}ºC')

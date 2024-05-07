@@ -1,11 +1,12 @@
-nota1 = float(input("Digite a primeira nota: "))
-while nota1 <0 or nota1 >10:
-    nota1 = float(input("Nota1 invalida, digite apenas de 0 a 10: "))
+'''3. Crie um código que leia a idade de
+uma pessoa e diga em qual ano ela
+nasceu'''
 
-nota2 = float(input("Digite a segunda nota: "))
-while nota2 <0 or nota2 > 10:
-    nota2 = float(input("Nota2 invalida, digite apenas de 0 a 10: "))
 
-media = (nota1 + nota2) / 2
-print(f'A media é {media}.')
-
+ano = 2024
+idade = int(input("Digite a idade: "))
+aniversario = input("Voce ja fez aniversario esse ano? (s/n): ")
+if aniversario == 'n' or aniversario == 'N':
+    ano = ano -1
+nascimento = ano - idade
+print(f'A pessoa nasceu em {nascimento}')

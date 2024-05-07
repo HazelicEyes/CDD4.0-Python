@@ -1,10 +1,21 @@
-anos = int(input("Quantos anos voce viveu? "))
-meses = int(input("Quantos meses voce viveu? "))
-dias = int(input("Quantos dias voce viveu? "))
-ano=365
-mes=30
-"""ou simplesmente idade = anos*365 + meses*30 + dias"""
-anosParaDias = anos * ano
-mesesParaDias = meses * mes
-idade = anosParaDias + mesesParaDias + dias
-print(f'Voce viveu por {idade} dias.')
+'''12. Escreva um algoritmo para ler o
+número total de eleitores de um
+município, o número de votos brancos,
+nulos e válidos. Calcular e escrever o
+percentual que cada um representa em
+relação ao total de eleitores.'''
+
+eleitores = int(input("Digite o numero de eleitores: "))
+validos = int(input("Digite o numero de votos validos: "))
+brancos = int(input("Digite o numero de votos brancos: "))
+nulos = int(input("Digite o numero de votos nulos: "))
+
+percentualValidos = (validos/eleitores)*100
+percentualBrancos = (brancos/eleitores)*100
+percentualNulos = (nulos/eleitores)*100
+
+print(f'----RESULTADO DOS VOTOS----'
+      f'\n{percentualValidos}% dos votos sao validos'
+      f'\n{percentualBrancos}% dos votos sao brancos'
+      f'\n{percentualNulos}% dos votos sao nulos')
+

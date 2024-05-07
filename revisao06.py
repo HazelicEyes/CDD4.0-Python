@@ -1,13 +1,9 @@
-n1 = int(input("Digite o primeiro numero: "))
-n2 = int(input("Digite o segundo numero: "))
-n3 = int(input("Digite o terceiro numero: "))
+'''6. Ler um valor e escrever a mensagem É MAIOR
+QUE 10! se o valor lido for maior que 10, caso
+contrário escrever NÃO É MAIOR QUE 10'''
 
-if n1 > n2:
-    if n1 > n3:
-        print(f'{n1} é maior')
-    else:
-        print(f'{n3} é maior')
-elif n2 > n3:
-        print(f'{n2} é maior')
+numero = int(input("Digite um valor: "))
+if numero > 10:
+    print(f'O numero {numero} é maior que 10.')
 else:
-     print(f'{n3} é maior')
+    print(f'O numero {numero} não é maior que 10.')
