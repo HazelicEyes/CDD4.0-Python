@@ -5,7 +5,7 @@ menu = 0
 while menu != 3:
     menu = int(input("MENU: (1) CADASTRO - (2) LOGIN - (3) SAIR \nDigite um numero: "))
     if menu ==1:
-        for x in range(1):
+        for x in range(5):
             nomes[x] = input(f'Digite o nome do {x + 1}º usuario: ')
             senhas[x] = input(f'Digite a senha do {x + 1}º usuario: ')
         print(f'Cadastro de {nomes[x]} efetuado com sucesso')
@@ -13,7 +13,7 @@ while menu != 3:
         usuario = input("Digite seu nome: ")
         login = input("Digite a sua senha: ")
         for y in range(5):
-            if login == senhas[y]:
+            if usuario == nomes [y] and login == senhas[y]:
                 print(f"Login efetuado com sucesso. \nSeja bem vindo {nomes[y]}.")
                 exit()
         else:
