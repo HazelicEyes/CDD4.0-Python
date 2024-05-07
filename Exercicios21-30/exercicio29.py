@@ -1,4 +1,4 @@
-notas = ['','','','','']
+notas = [0,0,0,0,0]
 soma = 0
 contador = 0
 for x in range(len(notas)):
@@ -9,7 +9,7 @@ for y in range(len(notas)):
 media = soma / 5
 
 for z in range(len(notas)):
-    if notas[z] > media:
+    if notas[z] >= media:
         contador += 1
 print(f'A media da sala é {media}')
-print(f'A quantidade de alunos que tiveram a nota maior que a media é {contador}')
+print(f'A quantidade de alunos que tiveram a nota maior ou igual que a media é {contador}')
