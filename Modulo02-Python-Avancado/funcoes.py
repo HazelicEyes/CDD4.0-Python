@@ -21,7 +21,7 @@ def estoque(produto, quantidade, valor):
     total = valor*quantidade
     return total
 
-def valor(n):
+def numero(n):
     if n > 0:
         return "Positivo"
     elif n < 0 :

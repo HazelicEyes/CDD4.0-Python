@@ -17,6 +17,6 @@ soma += resposta
 print(f'Voce tem {resposta} reais de {n} no estoque')
 print(soma)'''
 
-numero = int(input("Digite um numero: "))
-resposta = valor(numero)
-print(f'O numero {numero} é {resposta}')
+n = int(input("Digite um numero: "))
+resposta = numero(n)
+print(f'O numero {n} é {resposta}')
