@@ -14,7 +14,7 @@ while menu != 3:
         login = input("Digite a sua senha: ")
         for y in range(5):
             if usuario == nomes [y] and login == senhas[y]:
-                print(f"Login efetuado com sucesso. \nSeja bem vindo {nomes[y]}.")
+                print(f"Login efetuado com sucesso. Seja bem vindo {nomes[y]}.")
                 exit()
         else:
             print("Senha incorreta, usuario não encontrado")
