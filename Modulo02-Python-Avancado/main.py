@@ -28,5 +28,9 @@ print(resultado)
 somar2(1,2,3,4,5,6,7,8,9)
 
 texto("Alguma coisa muito longa")
-'''
+
 lista([1,1,1,2,3,4,5,5,3,56,4,2,4,3,2,32,4,45,2,2])
+'''
+
+resposta = primo(4)
+print(resposta)

@@ -56,3 +56,20 @@ def lista(lista):
         if lista[x] not in novaLista:
             novaLista.append(lista[x])
     print(novaLista)
+    '''    
+    novaLista = set(lista)
+    print(novaLista)
+    '''
+
+def primo(numero):
+    if numero == 1:
+        return numero, "Não é primo"
+    elif numero == 2:
+        return numero, "É primo"
+    else:
+        for x in range(2,numero):
+            if (numero % x == 0):
+                return numero, "Não é primo"
+        return numero, "É primo"
+
+
