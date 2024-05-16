@@ -60,7 +60,6 @@ def lista(lista):
     novaLista = set(lista)
     print(novaLista)
     '''
-
 def primo(numero):
     if numero == 1:
         return numero, "Não é primo"
@@ -71,5 +70,3 @@ def primo(numero):
             if (numero % x == 0):
                 return numero, "Não é primo"
         return numero, "É primo"
-
-
