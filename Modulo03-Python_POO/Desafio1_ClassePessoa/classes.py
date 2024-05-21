@@ -1,6 +1,6 @@
 class Pessoa():
 # Classes tem Metodos e Atributos, (Metodos sao Funcoes e Atributos são Variaveis)
-    def __init__(self, nome, peso, idade):
+    def __init__(self, nome, peso, idade): # metodo construtor e parametros
         self.nome = nome
         self.peso = peso #esses 3 são atributos #atributos usam sempre self, atributos atribuem valores
         self.idade = idade
