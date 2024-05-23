@@ -1,7 +1,7 @@
 import random
 class Jogar:
     def __init__(self):
-        self.escolhaUsuario = ''
+        self.escolhaUsuario = 'None'
         self.escolhaComputador = random.choice(['pedra', 'papel', 'tesoura'])
 
     def pedra(self):
