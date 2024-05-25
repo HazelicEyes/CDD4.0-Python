@@ -102,8 +102,8 @@ class JogoDaVelha:
                         print(f'O computador jogou na posição {jogada}.')
                     break  # Encerra o loop
                 else:
-                    if self.escolha == 1:
-                        print(f"jogada do {self.turno} inválida, jogue novamente.")
+                    if self.escolha == 1 or self.escolha == 2 and self.turno == "X":
+                        print(f"\njogada do {self.turno} inválida, jogue novamente.")
 
             self.tabuleiro[jogada] = self.turno
             estado = self.verificar_tabuleiro()
